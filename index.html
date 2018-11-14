@@ -1,19 +1,79 @@
-<!DOCTYPE html>
-<html>
-	 
-	<head>
-		<title>definition</title>
-	 
+<html> 
 
-	 <script src = 'definition.js' type="text/javascript" ></script>
-	</head>
+
  
-	<body>
-			 
-<button id="search" onclick= 'loadDoc()' > search </button>
+    <head> 
 
  
 
 
-</body>
+ 
+			<script src="querry.js" type="text/javascript"></script> 
+
+
+ <link href="q.css" type="text/css" rel="stylesheet"> 
+	</head> 
+
+
+ 
+    <body> 
+
+
+ 
+        <div id="content"> 
+
+
+ 
+         
+
+
+ 
+        <div id="header">Web Terms Dictionary</div><br> 
+
+
+ 
+        <div class="container"> 
+
+
+ 
+            <div id="searchArea"> 
+
+
+ 
+                <p>Look up the definition of a word e.g PHP, AJAX, HTML, etc.</p> 
+
+
+ 
+                <form onsubmit="loadDoc();return false;" > 
+
+
+ 
+                    <input type="text" id="queryTxtBox" autofocus > 
+
+
+ 
+                    <input type="button" id="btnSearch" value="Search" onclick="loadDoc()" > 
+
+
+ 
+                </form><br> 
+
+
+ 
+            </div> 
+
+
+ 
+            <div id="result"></div> 
+
+
+ 
+        </div> 
+
+
+ 
+    </body> 
+
+
+ 
 </html>
